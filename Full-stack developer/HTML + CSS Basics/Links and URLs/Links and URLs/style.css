@@ -1,0 +1,15 @@
+/* .container, .box */
+/* .container.box */
+/* .container .box */
+/* .container > .box */
+/* .container > * */
+/* .container > * > .box */
+/* .container > * > * */
+/* .container ~ .box */
+/* .container + .box */
+/* .box + .container */
+/* .container :not(.box) */
+.container :has(.box)
+{
+  background-color: green;
+}

@@ -1,0 +1,38 @@
+.form-field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  color: purple;
+  font-weight: bold;
+}
+
+:focus {
+  background-color: #ff0;
+}
+
+/* :valid */
+input:invalid {
+  border-color: red;
+}
+
+input:checked + label {
+  color: green;
+}
+
+label:has(input:checked) {
+  color: blue;
+}
+
+button:hover {
+  color: blue;
+}
+
+button:active {
+  color: orange;
+}
+
+button:disabled {
+  color: #444;
+}

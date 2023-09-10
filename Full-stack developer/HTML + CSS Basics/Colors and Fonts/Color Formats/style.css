@@ -1,0 +1,17 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #444;
+  background-color: #ff0;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.3);
+  color: #00000088;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,14 @@
+/* h1  */
+/* .some-class */
+/* #some-id */
+/* * */
+/* [title] */
+/* [title="page"] */
+/* [title^="page"] */
+/* [title$="page"] */
+/* [title*="page"] */
+/* [title~="page"] */
+[title|="page"]
+{
+  background-color: #8f0;
+}

@@ -1,0 +1,7 @@
+body> h1 {
+  background-color: green;
+}
+
+body > :not(p) {
+  background-color: red;
+}

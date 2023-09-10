@@ -1,0 +1,30 @@
+.link {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 8px;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: tomato;
+}
+
+.link-2 {
+  /* display: none; */
+  /* visibility: hidden; */
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+}

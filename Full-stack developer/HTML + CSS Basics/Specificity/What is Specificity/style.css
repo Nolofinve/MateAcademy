@@ -1,0 +1,16 @@
+/* 
+0 - *
+1 - p, ::after
+2 - .message, [id], :first-child
+3 - #notification 
+*/
+
+
+.message
+{
+  background-color: orange;
+}
+
+p {
+  background-color: yellow;
+}

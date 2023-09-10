@@ -1,0 +1,20 @@
+html {
+  --footer-height: 120px;
+  --header-height: 60px;
+}
+
+.header {
+  height: var(--header-height);
+  background-color: #0057b7;
+}
+
+.main {
+  box-sizing: border-box;
+  min-height: calc(100vh - var(--footer-height) - var(--header-height));
+  padding: 10px 20px;
+}
+
+.footer {
+  height: var(--footer-height);
+  background-color: #ffd700;
+}

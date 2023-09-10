@@ -1,0 +1,7 @@
+.title:first-child {
+  background-color: green;
+}
+
+.title:hover {
+  background-color: red;
+}

@@ -1,0 +1,25 @@
+a {
+  display: block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  background-color: #ccc;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: orange;
+}
+
+/* LoVeHaTe */

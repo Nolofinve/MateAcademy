@@ -1,0 +1,12 @@
+/* .box::first-letter */
+/* .box::first-line */
+/* .box::selection */
+.box::before,
+.box::after
+{
+  content: "";
+  height: 10px;
+  display: block;
+  color: purple;
+  background-color: yellowgreen;
+}

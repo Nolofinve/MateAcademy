@@ -1,0 +1,30 @@
+.text {
+  padding: 10px;
+  margin: 0;
+  background-color: #ccc;
+}
+
+.container {
+  margin: 20px auto;
+  width: 400px;
+  border: 5px solid green;
+}
+
+.box {
+  height: 100px;
+  width: 70%;
+}
+
+.blue {
+  position: relative;
+  z-index: 1;
+  top: 50px;
+  left: 20px;
+  opacity: 0.2;
+  background-color: #0057b7;
+}
+
+.yellow {
+  position: relative;
+  background-color: #ffd700;
+}
