@@ -1,17 +1,13 @@
 'use strict';
 
-// debugger;
+for (let i = 0; i < 10; i++) {
+  const x = getRandomNumber(2, 7);
 
-let i = 0;
-let j = 1;
+  console.log(x);
+}
 
-for (;;) {
-  if (i >= 3) {
-    break;
-  }
-
-  console.log(i, j);
-
-  i++;
-  j--;
+function getRandomNumber(min, max) {
+  return Math.floor(
+    min + Math.random() * (max + 1 - min)
+  ) // [min; max)
 }
